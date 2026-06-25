@@ -1,0 +1,105 @@
+.user-card {
+  padding: 20px;
+  margin: 10px;
+  border: 2px solid black;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+.user-card:hover {
+  transform: translateY(-5px);
+  transition: 0.3s;
+}
+.user-details {
+  max-width: 800px;
+  line-height: 1.5;
+  margin: 30px auto;
+  padding: 30px;
+  border-radius: 12px;
+  background: #1f2937;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+.user-details:hover {
+  transform: translateY(-5px);
+  transition: 0.3s;
+}
+.search-input {
+  width: 350px;
+  padding: 12px;
+  border-radius: 8px;
+}
+.back-btn {
+  background-color: white;
+  padding: 8px 16px;
+  border-radius: 8px;
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+  margin-bottom: 15px;
+}
+.back-btn:hover {
+  transform: scale(1.05);
+}
+img {
+  border-radius: 50%;
+  width: 125px;
+  height: 125px;
+  border: 2px solid black;
+}
+.info-section {
+  text-align: left;
+  width: 98%;
+  margin: 0 auto;
+}
+.btn-grp {
+  display: flex;
+  justify-content: center;
+  margin: 15px 0;
+  gap: 15px;
+}
+.btn-grp button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.btn-grp button:hover {
+  transform: scale(1.05);
+}
+.top-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 15px 0;
+}
+.theme-btn {
+  background: white;
+  color: black;
+  padding: 15px 10px;
+  margin: 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.dark {
+  background: #1e293b;
+  color: white;
+}
+.light {
+  background: white;
+  color: black;
+}
+.light .info-section {
+  color: black;
+}
+.light h1 {
+  color: black;
+}
+.dark .info-section,
+h1 {
+  color: white;
+}
+.dark h1 {
+  color: white;
+}
